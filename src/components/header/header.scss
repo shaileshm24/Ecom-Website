@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    background: #6200EE;
   
     .logo-container {
       height: 100%;
@@ -17,9 +18,13 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
+
   
       .option {
+        cursor: pointer;
         padding: 10px 15px;
+        font-weight: bolder;
+        color: #ffffff;
       }
     }
   }
