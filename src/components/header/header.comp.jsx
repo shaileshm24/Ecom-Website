@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import {ReactComponent as Logo} from '../../assests/crown.svg';
+import  Logo from '../../assests/icon.png';
 import {auth} from '../../firebase/firebase.utils';
 
 import './header.scss';
@@ -8,7 +8,7 @@ import './header.scss';
 const Header = ({currentUser}) => (
     <div className='header'>
     <Link className='logo-container' to='/'>
-       <Logo className='logo' />
+       <img className='logo' src={Logo} height="70px"/>
     </Link>
     <div className='options'>
         <Link className='option' to='/shop'>Shop</Link>

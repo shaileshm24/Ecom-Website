@@ -15,18 +15,19 @@
     cursor: pointer;
       
     &:hover {
-      background-color: #bb86fc;
-      color: #ffffff;
-      // border: 1px solid #6200EE;
+      background-color: #ffffff;
+      color: #000000;
+      border: 1px solid #6200EE;
     }
 
     &.google-sign-in{
-      background-color: #03dac5;
+      background-color: #20b956;
       color: #fff;
 
       &:hover{
-        background-color: #bb86fc;
-        border: none;
+        background-color: #ffffff;
+        color:#000000;
+        border: 1px solid #20b956;
       }
     }
   }

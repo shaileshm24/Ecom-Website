@@ -4,12 +4,12 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
-    background: #6200EE;
+    // background:  #ff7d7d;
   
     .logo-container {
       height: 100%;
       width: 70px;
-      padding: 25px;
+      padding: 5px;
     }
   
     .options {
@@ -24,7 +24,7 @@
         cursor: pointer;
         padding: 10px 15px;
         font-weight: bolder;
-        color: #ffffff;
+        color: #000000;
       }
     }
   }
