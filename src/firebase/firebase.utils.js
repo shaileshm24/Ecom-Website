@@ -4,6 +4,13 @@ import "firebase/auth";
 
 const config = {
   //put your api keys and auth token provided by google firebase
+  apiKey: "AIzaSyA1TIFy9tibGhdG-a3Vwhp10zgYJGou7AU",
+  authDomain: "ecom-website-cc7ac.firebaseapp.com",
+  projectId: "ecom-website-cc7ac",
+  storageBucket: "ecom-website-cc7ac.appspot.com",
+  messagingSenderId: "718280169287",
+  appId: "1:718280169287:web:7c0593e093f6c36add9e62",
+  measurementId: "G-77DSZ2J9X4",
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
