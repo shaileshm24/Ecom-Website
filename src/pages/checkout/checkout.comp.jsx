@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import CartItem from '../../components/cart-item/cart-item.comp';
 import CheckoutItem from '../../components/checkout-item/checkout-item.comp';
+import StripeCheckoutButton from '../../components/stripe-button/stripe-button.comp';
 import { selectCartItems, selectCartTotal } from '../../redux/cart/cart.selectors';
 
 import './checkout.scss';
@@ -35,7 +36,7 @@ const Checkout=({cartItems, total})=>(
             <span>TOTAL: ${total}</span>
 
         </div>
-
+        <StripeCheckoutButton price={total}/>
 
     </div>
 );
